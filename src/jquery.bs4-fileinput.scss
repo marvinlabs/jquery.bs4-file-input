@@ -1,0 +1,11 @@
+.custom-file-name:after {
+    content  : attr(data-content) !important;
+    position : absolute;
+    top      : 0;
+    left     : 0;
+    display  : block;
+    height   : 100%;
+    overflow : hidden;
+    padding  : $input-padding-y $input-padding-x;
+    z-index  : 10000;
+}
